@@ -10,7 +10,7 @@ st.set_page_config(
 model = joblib.load("model_regresi_bikesharing.joblib")
 
 st.title(":bike: Bike Sharing Prediction")
-st.markdown("Aplikasi machine learning klasifikasi untuk memprediksi kualitas apel menggunakan algoritma random forest")
+st.markdown("Aplikasi machine learning regresi untuk memprediksi jumlah penyewaan sepeda menggunakan algoritma random forest")
 
 with st.container(border=True):
 	season = st.pills("Season", ["Spring","Summer","Fall","Winter"], default="Spring")
@@ -50,4 +50,5 @@ with st.container(border=True):
 		st.success(f'Model memprediksi jumlah sepeda disewa adalah **{prediction:.4f}**')
 
 st.divider()
+
 st.caption("Dibuat dengan :heart: oleh M. Irfan Nopriansyah")
