@@ -3,14 +3,14 @@ import pandas as pd
 import joblib
 
 st.set_page_config(
-    page_title = "Klasifikasi Apel",
-    page_icon = ":apple:",
+    page_title = "Bike Sharing Prediction",
+    page_icon = ":bike:",
 )
 
 model = joblib.load("model_regresi_bikesharing.joblib")
 
 st.title(":bike: Bike Sharing Prediction")
-st.markdown("Aplikasi machine learning regresi untuk memprediksi jumlah penyewaan sepeda menggunakan algoritma random forest")
+st.markdown("Aplikasi machine learning regresi untuk memprediksi jumlah penyewaan sepeda menggunakan algoritma random forest regression")
 
 with st.container(border=True):
 	season = st.pills("Season", ["Spring","Summer","Fall","Winter"], default="Spring")
@@ -52,3 +52,4 @@ with st.container(border=True):
 st.divider()
 
 st.caption("Dibuat dengan :heart: oleh M. Irfan Nopriansyah")
+
