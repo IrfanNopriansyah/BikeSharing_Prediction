@@ -3,6 +3,7 @@
 Projek ini bertujuan untuk assignment project GDGoC divisi Machine Learning. Projek ini memprediksi jumlah sepeda yang disewa dengan menganalisis musim, cuaca, suhu, angin, dan kelembapan
 
 Link Dataset : https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset
+
 Link Streamlit : https://bikesharingprediction-irfan.streamlit.app/
 
 **Analisis Singkat**
